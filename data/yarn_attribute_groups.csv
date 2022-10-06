@@ -1,0 +1,49 @@
+"id","name","permalink","yarn_attributes_created_at","yarn_attributes_description","yarn_attributes_id","yarn_attributes_name","yarn_attributes_permalink","yarn_attributes_sort_order","yarn_attributes_yarn_attribute_group_id"
+8,"Care","care","2016/05/27 15:07:32 -0400","lay flat to dry",76,"Dry Flat","dry-flat",5,8
+8,"Care","care","2016/05/27 15:07:32 -0400","wash by hand",4,"Hand Wash","hand-wash",4,8
+8,"Care","care","2016/05/27 15:07:32 -0400","wash by hand in cold water",5,"Hand Wash Cold","hand-wash-cold",5,8
+8,"Care","care","2016/05/27 15:07:31 -0400","yarn may be dried in a drying machine",3,"Machine Dry","machine-dry",3,8
+8,"Care","care","2016/05/27 15:07:31 -0400","yarn may be washed in a washing machine",2,"Machine Wash","machine-wash",2,8
+8,"Care","care","2016/05/27 15:07:31 -0400","yarn has been treated and may be washed in a washing machine",1,"Superwash","superwash",1,8
+12,"Color","color","2016/05/27 15:07:33 -0400","two or more contrasting singles plied together",19,"Barber pole","barber-pole",1,12
+12,"Color","color","2016/05/27 15:07:33 -0400","dyed in long color sections that gradually blend into each other",20,"Gradient","gradient",2,12
+12,"Color","color","2016/05/27 15:07:34 -0400","a subtly flecked color effect achieved by blending together many different shades of fiber before spinning",21,"Heathered","heathered",3,12
+12,"Color","color","2016/05/27 15:07:34 -0400","made up of two or more plies of different colors twisted together",22,"Marled","marled",4,12
+12,"Color","color","2016/05/27 15:07:34 -0400","made up of multiple unplied strands of thin yarns in different solid colors",23,"Multi-strand unplied","multi-strand-unplied",5,12
+12,"Color","color","2016/05/27 15:07:34 -0400","dyed in manner designed to create specific patterns (often imitating those seenin fair-isle knitting), most frequently when making items with a small width or circumference",25,"Self-patterning","self-patterning",6,12
+12,"Color","color","2016/05/27 15:07:34 -0400","dyed in manner designed to create stripes, most frequently when making items with a small width or circumference",24,"Self-striping","self-striping",7,12
+12,"Color","color","2016/05/27 15:07:35 -0400","dyed in a single hue with slight variation",26,"Semi-solid","semi-solid",8,12
+12,"Color","color","2016/05/27 15:07:35 -0400","dyed in a single hue with no variation",78,"Solid color","solid",9,12
+12,"Color","color","2016/05/27 15:07:35 -0400","dye method that results in tiny flecks of multiple colorsNULL",27,"Speckled","speckled",10,12
+12,"Color","color","2016/05/27 15:07:33 -0400","incorporates different tones (shades or tints) of the same hue",82,"Tonal","tonal",11,12
+12,"Color","color","2016/05/27 15:07:35 -0400","yarn containing contrasting flecks of color or neps, usually consisting of small pieces of fiber, on a solid background",28,"Tweed","tweed",12,12
+12,"Color","color","2016/05/27 15:07:35 -0400","yarn dyed with more than one color",29,"Variegated","variegated",13,12
+13,"Construction","construction","2016/05/27 15:07:36 -0400","a plying method that uses one single strand to get a 3-ply yarn",42,"Chain-plied","chain-plied",0,13
+13,"Construction","construction","2016/05/27 15:07:36 -0400","made up of smaller strands of yarn that are worked into a chain or i-cord",43,"Chainette/i-cord","chainette-i-cord",0,13
+13,"Construction","construction","2016/05/27 15:07:37 -0400","a thick and thin single plied and manipulated onto a light weight, smooth, strong binderthread",45,"Coils","coils",0,13
+13,"Construction","construction","2016/05/27 15:07:38 -0400","brushed or fluffy yarn which creates a fuzzy effect",58,"Halo","halo",0,13
+13,"Construction","construction","2016/05/27 15:07:37 -0400","flat yarn",50,"Ribbon","ribbon",0,13
+13,"Construction","construction","2016/05/27 15:07:37 -0400","webbed yarn that allows you to work into the yarn itself and create a highly textured fabric with ruffles",51,"Ruffle","ruffle",0,13
+13,"Construction","construction","2016/05/27 15:07:38 -0400","yarn with markedly thicker sections or “slubs”",56,"Slub","slub",0,13
+13,"Construction","construction","2016/05/27 15:07:38 -0400","flat yarn constructed from a knitted or woven tape",54,"Tape","tape",0,13
+13,"Construction","construction","2016/05/27 15:07:37 -0400","yarn with a pronounced variation of thick and thin weights",52,"Thick and thin","thick-and-thin",0,13
+13,"Construction","construction","2016/05/27 15:07:38 -0400","single-strand, unspun lengths of wool or fiber",55,"Unspun","unspun",0,13
+13,"Construction","construction","2016/05/27 15:07:37 -0400","yarn in which the fibers appear to be twisted in a direction like the letter Z when the yarn is held vertically",80,"Z Twist","z-twist",0,13
+16,"Drafting method","drafting-method","2016/05/27 15:07:38 -0400","constructed of fibers twisted around a central core",59,"Core spun","core-spun",0,16
+16,"Drafting method","drafting-method","2016/05/27 15:07:38 -0400","yarn made with a worsted prep (combed) and woolen spun (with fibers lined up perpendicular when drafting)",60,"Semi-woolen spun","semi-woolen-spun",0,16
+16,"Drafting method","drafting-method","2016/05/27 15:07:38 -0400","yarn made with a woolen prep (carded) and worsted spun (with fibers lined up parallel when drafting)",61,"Semi-worsted spun","semi-worsted-spun",0,16
+16,"Drafting method","drafting-method","2016/05/27 15:07:38 -0400","made from carded fibers and spun from a rolag to make a light, fluffy yarn with fibers going in multiple directions",63,"Woolen spun","woolen-spun",0,16
+16,"Drafting method","drafting-method","2016/05/27 15:07:39 -0400","spun after fibers are aligned in the same direction resulting in a smooth, dense yarn with fibers lying straight and parallel",64,"Worsted spun","worsted-spun",0,16
+11,"Dye","dye","2016/05/27 15:07:33 -0400","dyed in the wool before processing",15,"Fleece dyed","fleece-dyed",0,11
+11,"Dye","dye","2016/05/27 15:07:33 -0400","dyed by hand",13,"Hand dyed","hand-dyed",0,11
+11,"Dye","dye","2016/05/27 15:07:33 -0400","dyed by machine",12,"Machine dyed","machine-dyed",0,11
+11,"Dye","dye","2016/05/27 15:07:33 -0400","dye derived from plants, invertebrates, or minerals",16,"Natural dyes","natural-dyes",0,11
+11,"Dye","dye","2016/05/27 15:07:33 -0400","no dye",17,"Undyed","undyed",0,11
+18,"Put up","put-up","2016/05/27 15:07:40 -0400","small skeins (usually weighing less than 25g), often sold in bundles",81,"Mini skeins","mini-skeins",0,18
+18,"Put up","put-up","2016/05/27 15:07:40 -0400","needs to be wound into a ball before use",75,"Winding required","winding-required",0,18
+10,"Sustainability","sustainability","2016/05/27 15:07:32 -0400","certified by an accredited organic certification organization",10,"Certified Organic","certified-organic",0,10
+10,"Sustainability","sustainability","2016/05/27 15:07:32 -0400","accredited by a fair trade certification organization",9,"Fair Trade","fair-trade",0,10
+10,"Sustainability","sustainability","2016/05/27 15:07:32 -0400","made from material that was previously used or discarded",11,"Recycled","recycled",0,10
+9,"Treatments","treatments","2016/05/27 15:07:32 -0400","will conduct electricity and carry a current.",6,"Conductive","conductive",0,9
+9,"Treatments","treatments","2016/05/27 15:07:32 -0400","a treatment that strengthens cellulose fibers and gives them a lustrous appearance. Most typically used with cotton.",8,"Mercerized","mercerized",0,9
+9,"Treatments","treatments","2016/05/27 15:07:32 -0400","chemically treated to repel or kill moths",7,"Moth-proofed","moth-proofed",0,9
