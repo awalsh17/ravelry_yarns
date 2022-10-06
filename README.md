@@ -3,7 +3,7 @@ Data from the ravelry.com yarn database
 
 # data
 
-This was assembled as in [code/get_data.R](code/det_data.R)
+This was assembled as in [code/get_data.R](code/get_data.R)
 
 The resulting csv is [data/yarn.csv](data/yarn.csv)
 
