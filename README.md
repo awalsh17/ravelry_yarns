@@ -14,7 +14,7 @@ There are two additional csv files that have additional data on the yarns:
 
 # data dictionary
 
-This was assembled as in [code/make_dictionary.R](code/make_dictionary.R)
+This was assembled in [code/make_dictionary.R](code/make_dictionary.R) and can be found in [data/yarn_dictionary.csv](data/yarn_dictionary.csv)
 
 |name                      |type      |description                                                      |
 |:-------------------------|:---------|:----------------------------------------------------------------|
@@ -37,10 +37,24 @@ This was assembled as in [code/make_dictionary.R](code/make_dictionary.R)
 |yarn_company_name         |character |                                                                 |
 |yarn_weight_crochet_gauge |character |Crochet gauge for the yarn weight category                       |
 |yarn_weight_id            |integer   |Identifier for the yarn weight category                          |
-|yarn_weight_knit_gauge    |character |Knit guage for the yarn weight category                          |
+|yarn_weight_knit_gauge    |character |Knit gauge for the yarn weight category                          |
 |yarn_weight_name          |character |Name for the yarn weight category                                |
 |yarn_weight_ply           |character |Ply for the yarn weight category                                 |
 |yarn_weight_wpi           |character |Wraps per inch for the yarn weight category                      |
 |texture_clean             |character |Texture with some light text cleaning                            |
 
 
+### TidyTuesday
+
+This data was used for [#tidytuesday](https://github.com/rfordatascience/tidytuesday) week 41! 
+
+## Other ways to work with ravelry data
+
+There is a [ravelRy](https://github.com/walkerkq/ravelRy) R package!
+
+## Example plot
+
+See the [explore_yarn.R](code/explore_yarn.R) file to see how to plot the relationship between
+fiber content and average rating.
+
+<img src="./images/we_love_merino.png" width="500"/>

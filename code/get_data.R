@@ -6,24 +6,23 @@ library(jsonlite)
 
 # get the information on 100,000 yarns -------
 # iterate over all pages (1000 results per) 100,000 total, api user/pass was saved to env
+# these are the yarns with the most projects on ravelry
 
 pages <- c(1:100)
 
 resp <- purrr::map(pages, ~httr::GET(
-  url = paste0("https://api.ravelry.com/yarns/search.json?sort=best&page_size=1000&page=", .x),
+  url = paste0("https://api.ravelry.com/yarns/search.json?sort=projects&page_size=1000&page=", .x),
   authenticate(Sys.getenv("RAVELRY_API_USER"), Sys.getenv("RAVELRY_API_PASS"))))
 
-# first item is the yarn data
+# first item is the yarn data (second is the paginator)
 
 yarn_all <- purrr::map_dfr(resp, ~fromJSON(content(.x, as = "text"))[[1]])
-
-# second is the paginator - 100 pages
 
 # write out raw
 
 saveRDS(yarn_all, "data/yarn_raw.Rds")
 
-# unnest the data frame, remove first_photo and personal_attributes
+# unnest yarn_weight, remove first_photo and personal_attributes
 
 yarn_all <- tidyr::unnest(yarn_all, yarn_weight, names_sep = "_") %>%
   select(-first_photo, -personal_attributes)
