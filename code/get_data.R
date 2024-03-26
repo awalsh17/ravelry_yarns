@@ -14,6 +14,13 @@ resp <- purrr::map(pages, ~httr::GET(
   url = paste0("https://api.ravelry.com/yarns/search.json?sort=projects&page_size=1000&page=", .x),
   authenticate(Sys.getenv("RAVELRY_API_USER"), Sys.getenv("RAVELRY_API_PASS"))))
 
+# hm - I am getting some 500 status codes. Lets replace those
+
+bad_codes <- sapply(resp, \(x) x$status_code) == 500
+resp[bad_codes] <- purrr::map(pages[bad_codes], ~httr::GET(
+  url = paste0("https://api.ravelry.com/yarns/search.json?sort=projects&page_size=1000&page=", .x),
+  authenticate(Sys.getenv("RAVELRY_API_USER"), Sys.getenv("RAVELRY_API_PASS"))))
+
 # first item is the yarn data (second is the paginator)
 
 yarn_all <- purrr::map_dfr(resp, ~fromJSON(content(.x, as = "text"))[[1]])

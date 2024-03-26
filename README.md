@@ -3,7 +3,7 @@ Data from the ravelry.com yarn database
 
 # data
 
-This was assembled as in [code/get_data.R](code/get_data.R)
+This was assembled as in [code/get_data.R](code/get_data.R). The data was updated last on March 26, 2024.
 
 The resulting csv is [data/yarn.csv](data/yarn.csv)
 

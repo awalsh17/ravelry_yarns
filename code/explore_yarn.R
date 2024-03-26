@@ -47,6 +47,7 @@ yarn_fibers <- read_csv("data/yarn_fibers.csv")
 
 # create a "wide" dataset with each fiber as a column, values are percent
 yarn_fibers_wide <- yarn_fibers %>%
+  rename(yarn_id = id) %>%
   distinct(yarn_id, percentage, fiber_type_name) %>%
   group_by(yarn_id) %>%
   mutate(total = sum(percentage)) %>%
@@ -57,6 +58,7 @@ yarn_fibers_wide <- yarn_fibers %>%
 
 # decided to just get the "top" fiber per yarn!
 yarn_fibers_top <- yarn_fibers %>%
+  rename(yarn_id = id) %>%
   group_by(yarn_id) %>%
   slice_max(percentage, n = 1, with_ties = FALSE) %>%
   ungroup() %>%
